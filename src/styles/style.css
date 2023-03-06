@@ -75,7 +75,7 @@ body[data-nav='true'] > nav > #nav-links {
   left: 50%;
   bottom: 3rem;
   transform: translateX(-50%);
-  background-color: rgb(182, 142, 113);
+  background-color: rgb(85, 130, 149);
   border: none;
   border-radius: 5rem;
   outline: none;
@@ -95,7 +95,7 @@ body[data-nav='true'] > nav > #nav-links {
 }
 
 body[data-nav='true'] > #nav-toggle {
-  background-color: rgb(85, 130, 149);
+  background-color: rgb(40, 40, 40);
 }
 
 body:not([data-nav='true']) > #nav-toggle:hover > .open {
