@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+@font-face {
+  font-family: UrbanJungle;
+  src: url(../fonts/UrbanJungleDEMO.otf);
+}
+
+#welcome {
+  position: fixed;
+  margin: 0px;
+  top: 3rem;
+  left: 3rem;
+  color: black;
+  font-size: 3rem;
+  font-family: UrbanJungle, monospace;
+  font-style: italic;
+  letter-spacing: 3px;
+  filter: drop-shadow(-20px -15px 4px #0000004f);
+}
+
+#byWatchR {
+  position: fixed;
+  margin: 0px;
+  bottom: 3rem;
+  left: 3rem;
+  color: black;
+  font-size: 2rem;
+  font-family: UrbanJungle, monospace;
+  font-style: italic;
+  letter-spacing: 2px;
+  filter: drop-shadow(-15px 10px 4px #00000092);
+}

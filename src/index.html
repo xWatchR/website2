@@ -7,6 +7,7 @@
     <script src="/src/scripts/script.js"></script>
     <link rel="stylesheet" href="/src/styles/style.css" />
     <link rel="stylesheet" href="/src/styles/trailer.css" />
+    <link rel="stylesheet" href="/src/styles/byWatchR.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -14,11 +15,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Twitch</title>
+    <title>WatchR's Website</title>
     <link
       rel="icon"
       type="image/x-icon"
-      href="/src/images/2020_Dragonmancer_profileicon.png"
+      href="/src/images/Dawnblade_profileicon.png"
     />
   </head>
   <body data-nav="false">
@@ -26,7 +27,23 @@
       <i id="trailer-icon" class="fa-solid fa-link"></i>
     </div>
     <main>
-      <p id="byWatchR">by WatchR</p>
+      <video autoplay loop muted>
+        <source
+          src="images/mylivewallpapers.com-Valiant-Sword-Riven.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <p data-value="WELCOME" id="welcome">welcome</p>
+      <a href="https://www.twitch.tv/xwatchr" target="_blank" class="nav-link">
+        <p
+          data-value="BY WATCHR"
+          id="byWatchR"
+          class="interactable"
+          data-type="twitch"
+        >
+          by watchr
+        </p>
+      </a>
     </main>
     <nav>
       <div id="nav-links">
@@ -51,7 +68,7 @@
           />
         </a>
         <a href="#" class="nav-link">
-          <h2 class="nav-link-label">op.gg</h2>
+          <h2 class="nav-link-label">op gg</h2>
           <img
             data-type="link"
             class="nav-link-image interactable"
@@ -82,5 +99,6 @@
       <i class="close fa-solid fa-xmark"></i>
     </button>
     <script src="/src/scripts/trailer.js"></script>
+    <script src="/src/scripts/byWatchR.js"></script>
   </body>
 </html>
