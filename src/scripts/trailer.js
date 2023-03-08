@@ -33,7 +33,7 @@ const getTrailerColor = (type) => {
     case "twitter":
       return "rgba(29, 160, 242, 0.7)";
     case "insta":
-      return "rgba(247, 119, 55, 0.7)";
+      return "radial-gradient(circle at 30% 107%, rgba(253, 244, 151, 0.7) 0%, rgba(253, 244, 151, 0.7) 5%, rgba(253, 88, 73, 0.7) 45%, rgba(214, 36, 158, 0.7) 60%, rgba(40, 89, 235, 0.7) 90%)";
     case "link":
       return "rgba(83, 130, 232, 0.7)";
     case "video":
@@ -53,10 +53,10 @@ window.onmousemove = (e) => {
   animateTrailer(e, interacting);
 
   trailer.dataset.type = interacting ? interactable.dataset.type : "";
-  trailer.style.backgroundColor = interacting ? interactable.dataset.type : "";
+  trailer.style.background = interacting ? interactable.dataset.type : "";
 
   if (interacting) {
     icon.className = getTrailerClass(interactable.dataset.type);
-    trailer.style.backgroundColor = getTrailerColor(interactable.dataset.type);
+    trailer.style.background = getTrailerColor(interactable.dataset.type);
   }
 };
