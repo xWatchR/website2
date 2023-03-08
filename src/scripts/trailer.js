@@ -29,11 +29,13 @@ const getTrailerClass = (type) => {
 const getTrailerColor = (type) => {
   switch (type) {
     case "twitch":
-      return "purple";
+      return "rgba(100, 65, 164, 0.7)";
     case "twitter":
-      return "blue";
+      return "rgba(29, 160, 242, 0.7)";
     case "insta":
-      return "orange";
+      return "rgba(247, 119, 55, 0.7)";
+    case "link":
+      return "rgba(83, 130, 232, 0.7)";
     case "video":
       return "red";
     default:
