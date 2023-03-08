@@ -18,9 +18,15 @@
   font-style: italic;
   letter-spacing: 3px;
   filter: drop-shadow(-20px -15px 4px #0000004f);
+  /* animation */
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-name: slideInLeft;
 }
 
 #byWatchR {
+  text-emphasis-style: "ハ";
+  text-emphasis-position: under;
   position: fixed;
   margin: 0px;
   bottom: 3rem;
@@ -31,4 +37,19 @@
   font-style: italic;
   letter-spacing: 2px;
   filter: drop-shadow(-15px 10px 4px #00000092);
+  /* animation */
+  animation-duration: 9s;
+  animation-timing-function: ease-in-out;
+  animation-name: slideInLeft;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-300%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
