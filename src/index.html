@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="/src/scripts/script.js"></script>
     <link rel="stylesheet" href="/src/styles/style.css" />
     <link rel="stylesheet" href="/src/styles/trailer.css" />
     <link rel="stylesheet" href="/src/styles/byWatchR.css" />
@@ -27,7 +26,7 @@
       <i id="trailer-icon" class="fa-solid fa-link"></i>
     </div>
     <main>
-      <video autoplay loop muted>
+      <video id="videoBG" autoplay loop muted>
         <source
           src="images/mylivewallpapers.com-Valiant-Sword-Riven.mp4"
           type="video/mp4"
@@ -103,8 +102,9 @@
       <i class="open fa-solid fa-bars-staggered"></i>
       <i class="close fa-solid fa-xmark"></i>
     </button>
-    <span id="menu-text">Menu</span>
+    <div class="text">Menu</div>
     <script src="/src/scripts/trailer.js"></script>
     <script src="/src/scripts/byWatchR.js"></script>
+    <script src="/src/scripts/navAndMenuText.js"></script>
   </body>
 </html>
