@@ -9,7 +9,7 @@ const toggleNav = () => {
 function playAnimationEvery10Seconds() {
   setInterval(() => {
     text.classList.add('animate')
-  }, 4000)
+  }, 5000)
 
   text.addEventListener('animationend', () => {
     text.classList.remove('animate')
