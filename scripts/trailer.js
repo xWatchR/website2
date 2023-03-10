@@ -8,7 +8,7 @@ const animateTrailer = (e, interacting) => {
     transform: `translate(${x}px, ${y}px) scale(${interacting ? 5 : 1})`
   }
 
-  trailer.animate(keyframes, { duration: 800, fill: 'forwards' })
+  trailer.animate(keyframes, { duration: 0, fill: 'forwards' })
 }
 
 const getTrailerClass = (type) => {
